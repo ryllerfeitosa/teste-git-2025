@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.quadrados{
+    width: 100vw;
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quadrados div{
+    width: 100px;
+    height: 100px;
+    background-color:tomato;
+}
+.circulos{
+    width: 100vw;
+    height: 200px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.circulos div{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: tomato;
+}
